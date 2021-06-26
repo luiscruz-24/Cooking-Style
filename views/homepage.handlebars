@@ -1,0 +1,12 @@
+<h1 class='recipes-heading'>Recipes</h1>
+<div class='top-content'>
+  <h3>Recipes</h3>
+  <label for='check1' class="label-menu">All Recipes</label>
+  <label for='check2' class="label-menu">Breakfast</label>
+  <label for='check3'class="label-menu">Lunch</label>
+  <label for='check4'class="label-menu">Dinner</label>
+</div>
+{{#each examples as |example|}}
+  <p>{{example.name}}</p>
+
+{{/each}}
